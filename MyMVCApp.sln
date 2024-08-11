@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVCApp", "MyMVCApp\MyMVCApp.csproj", "{7EE17A15-7D6E-4C6C-806A-F650FC6D9856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMVCApp", "MyMVCApp\MyMVCApp.csproj", "{7EE17A15-7D6E-4C6C-806A-F650FC6D9856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7272D239-CDD5-472A-B4A2-0948DCB0B21C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D85B7230-616C-42F0-B040-B1102DC90BE2}"
+	ProjectSection(SolutionItems) = preProject
+		workflow.yml = workflow.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D85B7230-616C-42F0-B040-B1102DC90BE2} = {7272D239-CDD5-472A-B4A2-0948DCB0B21C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {409903F0-368C-4414-8E0B-8D92BEF80B7E}
